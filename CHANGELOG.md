@@ -69,7 +69,7 @@ Some earlier branches remain supported and security fixes are applied to them; i
 - Html and Pdf Writers display WMF and EMF images (as PNG) instead of an empty image.
 - Ods Writer no longer writes the formula text as the cell value when formulas are not pre-calculated. [Issue #5045](https://github.com/PHPOffice/PhpSpreadsheet/issues/5045) [PR #5046](https://github.com/PHPOffice/PhpSpreadsheet/pull/5046)
 - Avoid some breaks caused by new versions of libxml. [PR #5054](https://github.com/PHPOffice/PhpSpreadsheet/pull/5054)
-- Removing a sheet drops the defined names local to it, and turns the named ranges which refer to it into `#REF!`, as Excel does. [Issue #792](https://github.com/PHPOffice/PhpSpreadsheet/issues/792)
+- Removing a sheet drops the defined names local to it, and turns the named ranges which refer to it into `#REF!`, as Excel does. [Issue #792](https://github.com/PHPOffice/PhpSpreadsheet/issues/792) [PR #5077](https://github.com/PHPOffice/PhpSpreadsheet/pull/5077)
 
 ## 2026-09-15 - 5.10.0
 
